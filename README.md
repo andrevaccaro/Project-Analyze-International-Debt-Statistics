@@ -6,12 +6,18 @@ This project, conducted on DataCamp, utilizes PostgreSQL to explore and analyze 
 📊 Structure of the international_debt Table
 The dataset contains the following fields:
 
-Column	Definition	Data Type
-country_name	Name of the country	varchar
-country_code	Code representing the country	varchar
-indicator_name	Description of the debt indicator	varchar
-indicator_code	Code representing the debt indicator	varchar
-debt	Value of the debt indicator for the given country (USD)	float
+The dataset consists of five key columns:
+
+country_name: This column contains the name of the country associated with the debt data.
+
+country_code: A unique code representing each country in the dataset.
+
+indicator_name: A description of the debt indicator, detailing the type of debt recorded.
+
+indicator_code: A unique code that corresponds to the specific debt indicator mentioned.
+
+debt: The value of the debt indicator for the given country, represented in current U.S. dollars (USD).
+
 🛠 Methodology
 SQL queries are used to answer the proposed questions, allowing for a precise analysis of global debt and its economic impact.
 
@@ -27,12 +33,18 @@ Este projeto, realizado na DataCamp, utiliza PostgreSQL para explorar e analisar
 📊 Estrutura da Tabela international_debt
 A tabela contém os seguintes campos:
 
-Coluna	Definição	Tipo de dado
-country_name	Nome do país	varchar
-country_code	Código representativo do país	varchar
-indicator_name	Descrição do indicador de dívida	varchar
-indicator_code	Código do indicador de dívida	varchar
-debt	Valor da dívida para o país em dólares americanos (USD)	float
+A base de dados possui cinco colunas principais:
+
+country_name: Contém o nome do país relacionado aos dados da dívida.
+
+country_code: Um código único que representa cada país na base de dados.
+
+indicator_name: Uma descrição do indicador de dívida, detalhando o tipo de dívida registrada.
+
+indicator_code: Código que corresponde ao indicador de dívida mencionado.
+
+debt: Valor do indicador de dívida para o respectivo país, expresso em dólares americanos (USD).
+
 🛠 Metodologia
 Consultas SQL são utilizadas para responder às perguntas propostas, permitindo uma análise precisa da dívida global e seu impacto econômico.
 
